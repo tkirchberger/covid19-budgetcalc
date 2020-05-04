@@ -1,3 +1,9 @@
+"""
+COVID-19 Budget Calculator, CS 540 Final Project Proposal
+Author: Thomas J. Kirchberger
+tkirchberger@wisc.edu
+"""
+
 import math
 import random
 from datetime import datetime
