@@ -16,7 +16,8 @@ def main():
     b = False
     g = False
 
-    # getting COVID-19 from GitHub repository
+    # getting COVID-19 from GitHub repository (NY Times)
+    # source: https://github.com/nytimes/covid-19-data
     r = requests.get('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
     print("COVID-19 data was successfully loaded as a .csv. Starting calculator.")
 
@@ -37,5 +38,3 @@ def main():
     if pos == 'G':
         g = True
     state = input("What state would you like to budget for? ")
-
-main()
